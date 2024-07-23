@@ -1,4 +1,4 @@
-import { Heart, HeartPulse, Soup } from "lucide-react";
+import { Heart, HeartPulse } from "lucide-react";
 import { useState } from "react";
 
 const getTwoValuesFromArray = (arr) => {
@@ -25,7 +25,7 @@ const RecipeCard = ({ recipe, bg, badge }) => {
 	};
 
 	return (
-		<div className={`flex flex-col rounded-md ${bg} overflow-hidden p-3 relative`}>
+		<div className={`flex flex-col rounded-md ${bg} overflow-hidden p-4 relative shadow-2xl`}>
 			<a
 				href={`https://www.youtube.com/results?search_query=${recipe.label} recipe`}
 				target='_blank'
@@ -41,13 +41,13 @@ const RecipeCard = ({ recipe, bg, badge }) => {
 						e.currentTarget.previousElementSibling.style.display = "none";
 					}}
 				/>
-				<div
+				{/* <div
 					className='absolute bottom-2 left-2 bg-white rounded-full p-1 cursor-pointer flex items-center
 							 gap-1 text-sm
 							'
 				>
 					<Soup size={16} /> {recipe.yield} Servings
-				</div>
+				</div> */}
 
 				<div
 					className='absolute top-1 right-2 bg-white rounded-full p-1 cursor-pointer'

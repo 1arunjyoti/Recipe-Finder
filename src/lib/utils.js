@@ -1,16 +1,20 @@
 const COLORS = {
 	green: {
-		bg: "bg-[#ECF7D4]",
-		badge: "bg-[#D6F497]",
+		bg: "bg-[#E5DDC5]",
+		badge: "bg-[]",
 	},
-	orange: {
-		bg: "bg-[#F9EFE1]",
-		badge: "bg-[#F7E0B8]",
+	/* orange: {
+		bg: "bg-[#ECCA9C]",
+		badge: "bg-[#DBA979]",
 	},
 	red: {
-		bg: "bg-[#FBE5E7]",
-		badge: "bg-[#FDC6C7]",
+		bg: "bg-[#FFB4C2]",
+		badge: "bg-[#DA7297]",
 	},
+	violet:{
+		bg: "bg-[#A6E3E9]",
+		badge: "bg-[#71C9CE]",
+	} */
 };
 
 export const getRandomColor = () => {
