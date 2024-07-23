@@ -55,7 +55,7 @@ const Homepage = () => {
         </form>
 
         <h1 className="font-bold text-3xl md:text-5xl mt-4 mb-4">
-          Recomended Recipes
+          Recommended Recipes
         </h1>
         {/* <p className="text-slate-500 font-semibold ml-1 my-2 text-sm tracking-tight">
           Popular Choices
